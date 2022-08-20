@@ -1,0 +1,40 @@
+/* 
+    navigation bar
+*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+.linkstyle {
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 10 10 10 rgba(0,0,0,0.5);
+    padding: 0.5rem 2rem;
+}
+
+
+/* 
+    trending blogs 
+*/
+
+.trendblog{
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+/*
+    Signup and Login form
+*/
+#slform{
+    width: 50vw;
+    margin: 0 auto;
+    
+    margin-top: 40vh;
+}
+#login{
+    display: none;
+}
